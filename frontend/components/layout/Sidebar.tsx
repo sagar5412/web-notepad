@@ -23,7 +23,7 @@ export function Sidebar({ className }: SidebarProps) {
   if (!isOpen) {
     return (
       <aside
-        className={`fixed left-0 top-0 z-40 flex h-full w-16 flex-col items-center border-r border-gray-700 bg-gray-800 py-4 ${
+        className={`fixed left-0 top-0 z-40 flex h-full w-16 flex-col items-center border-r border-gray-700 bg-[#222831] py-4 ${
           className ?? ""
         }`}
       >
@@ -110,7 +110,7 @@ export function Sidebar({ className }: SidebarProps) {
   // Expanded sidebar
   return (
     <aside
-      className={`fixed left-0 top-0 z-40 flex h-full w-64 flex-col border-r border-gray-700 bg-gray-800 ${
+      className={`fixed left-0 top-0 z-40 flex h-full w-64 flex-col border-r border-gray-700 bg-[#222831] ${
         className ?? ""
       }`}
     >

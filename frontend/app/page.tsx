@@ -7,7 +7,7 @@ export default function Home() {
   const { isAuthenticated, user } = useAuth();
 
   return (
-    <div className="flex min-h-screen bg-black">
+    <div className="flex min-h-screen bg-[#000000]">
       {/* Sidebar */}
       <Sidebar />
 
